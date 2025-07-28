@@ -2,7 +2,7 @@
 NTDS,SAM,SYSTEM dumper
 
 The tool establishes direct access to the physical disk using RAW Disk Access.
-It utilizes the Windows API function CreateFileW to open the handle to \\.\PhysicalDrive0, which represents the entire physical disk.
+It utilizes the Windows API function CreateFileW to open the handle to "\\.\PhysicalDrive0", which represents the entire physical disk.
 
 This approach completely bypasses the NTFS file system driver (ntfs.sys), allowing the tool to access raw disk sectors directly without relying on the OS’s file I/O mechanisms.
 
