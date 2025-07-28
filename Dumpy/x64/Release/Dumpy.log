@@ -1,0 +1,9 @@
+﻿  DiskReader.cpp
+C:\Users\ShakW\Desktop\Dumpy\Dumpy\DiskReader.cpp(34,25): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  main.cpp
+  NTFSParser.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 690 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Dumpy.vcxproj -> C:\Users\ShakW\Desktop\Dumpy\x64\Release\Dumpy.exe
